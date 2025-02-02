@@ -1,0 +1,29 @@
+:root {
+    --items-gap: 1rem;
+}
+
+.category-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+    transition: transform .5s ease;
+    
+    & p {
+        padding-left: 1rem;
+        margin: 0;
+        text-transform: capitalize;
+    }
+}
+
+.show-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    gap: var(--items-gap);
+    justify-content: flex-start;
+    align-items: center;
+    padding: .5rem 2rem;
+}

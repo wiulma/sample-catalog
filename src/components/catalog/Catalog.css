@@ -1,0 +1,8 @@
+.catalog-container {
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    overflow: hidden;
+}
